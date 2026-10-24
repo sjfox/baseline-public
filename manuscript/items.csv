@@ -1,0 +1,20 @@
+item,script,description
+Figure 1,model_specification,"Example COVID-19 forecasts: flatline vs drift, raw vs square root, w = 10 vs all data"
+Figure 2,national_forecasts,"National 1-4-week-ahead forecasts, flatline vs drift, raw data, w = 10"
+Figure 3,wis_by_window,WIS relative to the standard baseline (hub baseline; wILI: seasonal) against training window
+Figure 4,seasonal_vs_flatline,"wILI: best flatline (log, all data) vs best seasonal baseline (log, 3 years)"
+Table 1,focal_vs_alternatives,"Square-root flatline (w = 10 and all data) vs alternatives, the standard baseline and submitted models"
+Figure S1,data_revisions,Size of data revisions; WIS components with real-time vs final RSV data
+Figure S2,wis_by_horizon,"WIS by horizon, flatline vs drift (raw, w = 10), with RSV-NET"
+Figure S3,flatline_vs_drift_by_location,"Flatline / drift WIS ratio by location (raw, w = 10)"
+Figure S4,realtime_vs_final,"Real-time vs final data, RSV-NET and RSV (NHSN)"
+Figure S5,covid_weekday_mechanism,Why COVID-19 drift WIS has a 7-day sawtooth against training window: weekday composition of the window
+Figure S6,wis_by_window_with_log,Figure 3 with the log-transformed models
+Figure S7,log_transform_examples,Why the log transform fails on spiky small counts: two example forecasts
+Figure S8,wis_by_window_log_scale,"Figure S6 scored on the log scale (WIS of log(x + 1)), with the log-transformed models"
+Figure S9,coverage50_by_window,"50% interval coverage against training window (raw, square root and log)"
+Figure S10,coverage95_by_window,"95% interval coverage against training window (raw, square root and log)"
+Figure S11,wis_decomposition,"WIS decomposition (dispersion, under- and overprediction) for the Table 1 model variants"
+Figure S12,seasonal_variants,"Seasonal baseline WIS by years of history, log vs raw"
+Figure S13,seasonal_by_horizon,"Flatline (square root w = 10 and all data; log all data) vs seasonal baseline (log, 3 years) by horizon, 1-10 weeks (wILI)"
+Figure S14,models_beating_baseline,"Share of submitted models beating a baseline, by the baseline's WIS relative to the hub baseline"
